@@ -39,41 +39,6 @@ Download WebDriver:
         Otherwise, manually configure the build path to include the Selenium WebDriver jars and any other necessary libraries.
         For Testng to work, set java compliance version as 1.7.
 
-Test Structure
-
-This project uses a well-defined test structure for maintainability and clarity:
-
-    src/main/java: Contains Java source code for test classes and utility functions.
-    src/test/java: Contains TestNG test classes with @Test annotations defining test cases.
-    src/test/resources: Contains test data files (e.g., CSV, Excel), object repositories (Page Object Model), and other resources the tests might need.
-    Example Test Class
-Java
-
-import org.testng.annotations.Test;
-
-public class TestWebsite {
-
-    @Test
-    public void loginTest() throws Exception {
-        // Setup WebDriver and navigate to the website
-        // ...
-
-        // Find login elements from the Page Object Model or by using Selenium selectors
-        // ...
-
-        // Enter username and password
-        // ...
-
-        // Submit the login form
-        // ...
-
-        // Assert successful login based on expected elements or behavior
-        // ...
-
-        // Close the browser (optional)
-        // ...
-    }
-}
 
 Running Tests
 
