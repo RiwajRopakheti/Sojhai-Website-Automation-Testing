@@ -56,6 +56,8 @@ The Page Object Model is a design pattern for creating reusable and maintainable
 
 Performance/Load Testing Tools used:
 
+For Manual Testing that includes Test Cases with Test Scenarios and Bug Reports visit https://docs.google.com/spreadsheets/d/1Uw2hsJSnkgfid5hUClq8lh0DbSd5Z8b2wzNUmfCchrY/edit?usp=drive_link 
+
 Downloaded JMeter from official Apache Website
 Add Blazemeter Extension from Chrome Extensions in Chrome Browser. 
 
