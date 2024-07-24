@@ -1,4 +1,4 @@
-Website Automation Testing with Selenium + TestNG
+Website Automation Testing with Selenium + TestNG and Performance Testing/Load Testing using Apache JMeter and BlazeMeter
 
 This project automates website testing using Selenium WebDriver and the TestNG testing framework in the Eclipse IDE for Java. It provides a robust and maintainable foundation for testing web applications.
 
@@ -54,4 +54,8 @@ Page Object Model (POM) (Recommended)
 
 The Page Object Model is a design pattern for creating reusable and maintainable tests. This project is structured to encourage the use of a POM, where you create separate classes for each page of your website, encapsulating page elements and their interactions.
 
+Performance/Load Testing Tools used:
+
+Downloaded JMeter from official Apache Website
+Add Blazemeter Extension from Chrome Extensions in Chrome Browser. 
 
